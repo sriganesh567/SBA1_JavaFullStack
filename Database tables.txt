@@ -1,0 +1,26 @@
+CREATE TABLE `registrations` (
+  `name` varchar(50) NOT NULL,
+  `uid` varchar(50) NOT NULL,
+  `pwd` varchar(50) NOT NULL,
+  PRIMARY KEY (`uid`)
+) 
+
+
+
+
+CREATE TABLE `applications` (
+  `Bindicator` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `mobile` varchar(50) NOT NULL,
+  `APPLICATIONID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `Amount` varchar(30) NOT NULL,
+  `DOA` varchar(30) NOT NULL,
+  `BSTRUCT` varchar(30) NOT NULL,
+  `PURPOSE` varchar(50) NOT NULL,
+  `STATUS` varchar(50) NOT NULL,
+  `ADDRESS` varchar(50) NOT NULL,
+  `UID` varchar(50) NOT NULL,
+  `PAN` varchar(50) NOT NULL,
+  PRIMARY KEY (`APPLICATIONID`)
+)
